@@ -1,0 +1,26 @@
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.nav_black{
+  background-color: black;
+}
+.logo {
+  order: 1;
+  width: 150px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.avatar {
+  order: 2;
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+}
